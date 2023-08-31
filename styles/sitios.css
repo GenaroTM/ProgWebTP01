@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+.contenedor-cartas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imagenPrincipal img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.imagenPrincipal h1{
+  width: 100%;
+  position: absolute;
+  color: white;
+  text-align: center;
+  top: 25%;
+}
+
+.tituloPrincipal{
+  font-size: 100px;
+}
+
+.imagenCard img{
+  border-radius: 10%;
+}
+
+.colorFondo img{
+  border-radius: 2%;
+  
+}
+.colorFondo p{
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#quebrada{
+background-color: rgb(249, 244, 149);
+}
+#maimara{
+background-color: rgb(253, 200, 126);
+}
+#salinas{
+background-color: rgba(129, 251, 251, 0.714);
+}
+#tilcara{
+background-color: rgb(255, 152, 111);
+}
+#calilegua{
+background-color: rgb(145, 255, 120);
+}
+#quiaca{
+ background-color: rgb(255, 153, 84); 
+}
+
+

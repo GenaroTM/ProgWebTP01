@@ -1,0 +1,27 @@
+* {
+  background-color: black;
+}
+
+.introduccion {
+  text-align: center;
+  font-size: 100px;
+  text-decoration: none;
+}
+
+.introduccion img{
+  object-fit: cover;
+}
+
+.imagen {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.introduccion div{
+  width: 100%;
+  position: absolute;
+  color: white;
+  text-align: center;
+  top: 50%;
+}
